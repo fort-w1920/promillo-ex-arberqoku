@@ -1,0 +1,19 @@
+Package: promillo
+Title: Computation of Blood Alcohol Content in Permille
+Version: 0.1.0
+Authors@R: 
+    person(given = "Arber",
+           family = "Qoku",
+           role = c("aut", "cre"),
+           email = "arber.qoku@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Compute content of alcohol in blood given an individual's age, sex, height, weight, drinking_time, drinks.
+Depends: R (>= 3.1.2)  
+Imports: checkmate, ggplot2
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
